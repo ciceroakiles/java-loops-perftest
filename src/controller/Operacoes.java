@@ -6,6 +6,7 @@ public class Operacoes {
         double t1 = System.nanoTime();
         for (int i = 0; i < vetor.length; i++) {
             vetor[i]++;
+            //System.out.print(vetor[i]);
         }
         double t2 = System.nanoTime();
         return ((t2-t1)/Math.pow(10, 9));
@@ -15,6 +16,7 @@ public class Operacoes {
         double t1 = System.nanoTime();
         for (int i : vetor) {
             i++;
+            //System.out.print(i);
         }
         double t2 = System.nanoTime();
         return ((t2-t1)/Math.pow(10, 9));
