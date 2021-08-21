@@ -2,7 +2,7 @@ package controller;
 
 public class Operacoes {
     
-	// Teste 1: Laço "for" convencional
+    // Teste 1: LaÃ§o "for" convencional
     public static double percorreVetor1(int[] vetor) {
         double t1 = System.nanoTime();
         for (int i = 0; i < vetor.length; i++) {
